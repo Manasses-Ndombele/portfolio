@@ -1,0 +1,75 @@
+@use "../base/variables.scss" as *;
+
+html.light {
+  #search-container select#search-select-field {
+    background-color: $tertiary-color;
+    border: none;
+  }
+}
+
+html.dark {
+  #search-container select#search-select-field {
+    border: none;
+    background-color: $quinary-color;
+    color: $tertiary-color;
+  }
+}
+
+form#search-container {
+  padding: 0 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  @include md() {
+    padding: 0 2rem;
+  }
+
+  label {
+    @include poppins-font(500);
+  }
+
+  select#search-select-field {
+    margin-top: 0.6rem;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 1em;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    max-width: 25rem;
+    @include poppins-font(400);
+  }
+
+  #skills-filter-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 0.8rem 0;
+
+    .field {
+      background-color: $primary-color-b;
+      padding: 0.5rem;
+      border-radius: 0.5rem;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      color: $tertiary-color-b;
+
+      &.active {
+        background-color: $primary-color;
+
+        svg {
+          display: block;
+        }
+      }
+
+      input {
+        display: none;
+      }
+
+      svg {
+        display: none;
+      }
+    }
+  }
+}

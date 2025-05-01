@@ -1,0 +1,123 @@
+@use "../base/variables.scss" as *;
+
+html.light {
+  #brand-intro-content {
+    h1 {
+      color: $secondary-color;
+
+      strong {
+        color: $primary-color;
+      }
+    }
+  }
+
+  #video-shadow {
+    background-image: radial-gradient(
+      $secondary-color,
+      transparent,
+      transparent
+    );
+
+    opacity: 0.3;
+  }
+}
+
+html.dark {
+  #brand-intro-content {
+    h1 {
+      color: $primary-color-b;
+    }
+  }
+}
+
+#brand-intro {
+  @include md() {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  @include lg() {
+    max-width: 1100px;
+    margin: 0 auto;
+    height: 80vh;
+  }
+
+  @include xl() {
+    width: 80%;
+    max-width: 1400px;
+  }
+
+  #brand-intro-content {
+    padding: 0rem 1rem;
+    @include md() {
+      padding: 0 0.3rem 0 1rem;
+      min-width: 26rem;
+      max-width: 32rem;
+    }
+
+    h1 {
+      max-width: 35rem;
+      text-transform: capitalize;
+      @include montserrat-font();
+    }
+
+    p {
+      max-width: 35rem;
+    }
+
+    a {
+      display: block;
+      width: 100%;
+      max-width: 20rem;
+      white-space: nowrap;
+
+      button.main-cta {
+        width: 100%;
+        border: none;
+        border-radius: 10px;
+        font-size: 1em;
+        padding: 0.7rem 0rem;
+        cursor: pointer;
+        background-image: linear-gradient(
+          to top,
+          $primary-color-b,
+          $primary-color
+        );
+
+        color: $tertiary-color;
+        transition: all 0.4s ease-in;
+        @include poppins-font(500);
+
+        &:hover {
+          box-shadow: 1px 1px 10px $quinary-color;
+          scale: 1.02;
+        }
+      }
+    }
+  }
+
+  #brand-intro-video {
+    width: 100%;
+    margin: 5rem auto 0 auto;
+    max-width: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @include md() {
+      min-width: 20rem;
+      max-width: 25rem;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+
+    #video-shadow {
+      width: 100%;
+      height: 10rem;
+      transform: translateY(-4rem);
+    }
+  }
+}

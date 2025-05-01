@@ -1,0 +1,150 @@
+@use "../base/variables.scss" as *;
+
+html.light {
+  #modal-overlay {
+    #modal-project {
+      background-color: $tertiary-color;
+      border-top: 3px solid $primary-color-b;
+      border-bottom: 3px solid $primary-color-b;
+
+      h3 {
+        color: $primary-color-b;
+      }
+
+      p.skills {
+        span {
+          background-color: $primary-color-b;
+          color: $tertiary-color-b;
+        }
+      }
+    }
+  }
+}
+
+html.dark {
+  #modal-overlay {
+    #modal-project {
+      background-image: linear-gradient(
+        to right,
+        $quinary-color,
+        $secondary-color
+      );
+
+      h3 {
+        color: $primary-color;
+      }
+
+      p {
+        color: $tertiary-color;
+
+        span {
+          background-color: $primary-color;
+        }
+      }
+    }
+  }
+}
+
+#modal-overlay {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.537);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &.closed {
+    display: none;
+  }
+
+  #modal-project {
+    padding: 1rem 0.8rem;
+    border-radius: 15px;
+    width: 85%;
+    margin: 0 auto;
+    max-width: 600px;
+    height: 28rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    overflow-y: scroll;
+    transition: opacity 0.3s ease-in;
+
+    @include md() {
+      height: 60%;
+    }
+
+    @include lg() {
+      height: 50%;
+    }
+
+    &.closing {
+      opacity: 0;
+    }
+
+    h3 {
+      text-transform: capitalize;
+      font-size: 1.5em;
+      margin: 0 0.5rem;
+      @include montserrat-font();
+    }
+
+    p.skills {
+      display: flex;
+      align-items: center;
+      gap: 0.8rem;
+      flex-wrap: wrap;
+
+      @include md() {
+        justify-content: space-around;
+        gap: 0;
+      }
+
+      span {
+        padding: 0.5rem;
+        border-radius: 1rem;
+        font-size: 0.8em;
+      }
+    }
+
+    #modal-actions {
+      @include md() {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        justify-content: space-between;
+      }
+
+      a {
+        display: block;
+        width: 100%;
+        margin-bottom: 0.6rem;
+        text-decoration: none;
+
+        button {
+          padding: 0.6rem 0;
+          border-radius: 22px;
+          border: none;
+          width: 100%;
+          font-size: 1.1em;
+          cursor: pointer;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 0.5rem;
+          background-color: $primary-color;
+          color: $tertiary-color-b;
+          @include poppins-font(500);
+          transition: transform 0.3s ease-in;
+
+          &:hover {
+            transform: scale(1.03);
+          }
+        }
+      }
+    }
+  }
+}

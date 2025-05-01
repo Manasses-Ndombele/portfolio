@@ -1,0 +1,205 @@
+@use "../base/variables.scss" as *;
+
+html.dark {
+  #contacts-container {
+    background-image: linear-gradient(
+      to top,
+      $primary-color-b,
+      $quartenary-color
+    );
+
+    #budget-form-container {
+      button {
+        background-color: $quartenary-color;
+
+        &:hover {
+          background-color: transparent;
+          color: $quartenary-color !important;
+          border: 2px solid $quartenary-color !important;
+        }
+      }
+    }
+  }
+}
+
+html.light {
+  #contacts-container {
+    background-image: linear-gradient(to top, $primary-color-b, $primary-color);
+
+    #budget-form-container {
+      button {
+        background-color: $secondary-color;
+
+        &:hover {
+          background-color: transparent;
+          color: $secondary-color !important;
+          border: 2px solid $secondary-color !important;
+        }
+      }
+    }
+  }
+}
+
+#contacts-container {
+  padding: 0.5rem;
+  margin: 1rem 0;
+  @include md() {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: space-between;
+  }
+
+  @include lg() {
+    justify-content: space-around;
+  }
+
+  #social-area {
+    color: $tertiary-color;
+
+    h2 {
+      @include montserrat-font();
+      text-align: center;
+      @include md() {
+        text-align: left;
+      }
+    }
+
+    #social-container {
+      nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+        @include md() {
+          justify-content: flex-start;
+        }
+
+        a {
+          font-size: 1.5em;
+          color: $tertiary-color-b;
+          transition: transform 0.3s ease-in;
+
+          &:hover {
+            transform: scale(1.03);
+          }
+        }
+      }
+    }
+
+    #email-container {
+      p {
+        text-align: center;
+        font-size: 0.9em;
+        @include md() {
+          text-align: left;
+        }
+      }
+    }
+  }
+
+  #budget-container {
+    background-color: $tertiary-color;
+    border-radius: 10px;
+    padding: 0.8rem;
+    box-shadow: 0 0 4px $primary-color-b;
+    max-width: 30rem;
+    margin: 0 auto;
+    @include md() {
+      margin: 0.6rem;
+    }
+
+    @include lg() {
+      max-width: 30rem;
+    }
+
+    #budget-container-copy {
+      h2 {
+        color: $primary-color-b;
+        text-transform: capitalize;
+        @include montserrat-font();
+      }
+
+      p {
+        color: $secondary-color;
+      }
+    }
+
+    #budget-form-container {
+      padding-right: 1rem;
+
+      p.result-text {
+        margin: 0.5rem 0;
+
+        &.show {
+          display: block;
+        }
+
+        &.hidden {
+          display: none;
+        }
+
+        &.success-text {
+          color: #23c023;
+        }
+
+        &.error-text {
+          color: #f12020;
+        }
+      }
+
+      form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+
+        .field-container {
+          margin-bottom: 10px;
+          width: 100%;
+
+          input,
+          textarea {
+            width: 100%;
+            background-color: transparent;
+            border: 1px solid $secondary-color;
+            color: $secondary-color;
+            padding: 0.5rem 0.4rem;
+            border-radius: 10px;
+            @include poppins-font(400);
+
+            &:focus {
+              outline: none;
+            }
+
+            textarea#project-description-field {
+              resize: none;
+              width: 100%;
+              height: 70px;
+            }
+          }
+
+          span {
+            color: #f12020;
+            margin-top: 0.4rem;
+          }
+        }
+
+        button {
+          padding: 0.6rem 0;
+          border-radius: 22px;
+          border: none;
+          width: 100%;
+          font-size: 1.1em;
+          cursor: pointer;
+          color: $tertiary-color;
+          margin-top: 10px;
+          max-width: 14rem;
+          transition: all 0.4s ease-in;
+          @include poppins-font(600);
+        }
+      }
+    }
+  }
+}

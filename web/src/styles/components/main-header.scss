@@ -1,0 +1,255 @@
+@use "../base/variables.scss" as *;
+
+html.light {
+  header#main-header {
+    @include md() {
+      background-color: $tertiary-color-b;
+      box-shadow: 0px 0px 2px $secondary-color;
+    }
+
+    #header-main-layout {
+      background-color: $tertiary-color-b;
+      box-shadow: 0px 0px 2px $secondary-color;
+      @include md() {
+        background-color: transparent;
+        box-shadow: none;
+      }
+
+      strong {
+        color: $secondary-color;
+      }
+    }
+
+    button.menu-btn {
+      background-color: transparent;
+    }
+
+    #header-options {
+      background-color: $tertiary-color-b;
+
+      nav > a:hover {
+        background-color: $primary-color;
+        color: $tertiary-color;
+      }
+
+      button#theme-btn {
+        background-color: $tertiary-color;
+        border: none;
+      }
+
+      button.main-cta {
+        background-color: $primary-color;
+        color: $tertiary-color;
+      }
+    }
+  }
+}
+
+html.dark {
+  header#main-header {
+    @include md() {
+      background-color: $tertiary-color;
+    }
+
+    #header-main-layout {
+      background-color: $tertiary-color;
+      @include md() {
+        background-color: transparent;
+      }
+
+      strong {
+        color: $quartenary-color;
+      }
+    }
+
+    button.menu-btn {
+      background-color: $primary-color-b;
+      color: $tertiary-color-b;
+      border-radius: 50%;
+      font-size: 1.7em;
+      width: 2.5rem;
+      height: 2.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    #header-options {
+      background-color: $tertiary-color;
+
+      nav > a:hover {
+        background-color: $primary-color-b;
+        color: $tertiary-color-b;
+      }
+
+      button#theme-btn {
+        background-color: transparent;
+        border: 1px solid $secondary-color;
+      }
+
+      button.main-cta {
+        background-color: $primary-color-b;
+        color: $tertiary-color;
+      }
+    }
+  }
+}
+
+header#main-header {
+  @include md() {
+    display: flex;
+    padding: 0.5rem;
+  }
+
+  @include lg() {
+    width: 95%;
+    margin: 1rem auto 0 auto;
+    border-radius: 15px;
+    max-width: 1100px;
+  }
+
+  @include xl() {
+    width: 80%;
+    max-width: 1400px;
+  }
+
+  #header-main-layout {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    @include md() {
+      padding: 1rem 0 1rem 0.4rem;
+    }
+
+    a {
+      text-decoration: none;
+      white-space: nowrap;
+
+      span {
+        color: $primary-color-b;
+      }
+    }
+  }
+
+  button.menu-btn {
+    border: none;
+    font-size: 1.5em;
+    padding: 0;
+    cursor: pointer;
+    @include md() {
+      display: none !important;
+    }
+  }
+
+  #header-options {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 100vw;
+    height: 100vh;
+    transform: translateY(-100vh);
+    transition: all 0.4s ease-in;
+    @include md() {
+      position: static;
+      width: 100%;
+      height: min-content;
+      transform: none;
+      opacity: 1;
+      background-color: transparent !important;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    &.opened {
+      transform: none;
+      opacity: 1;
+    }
+
+    #header-close-action-container {
+      display: flex;
+      justify-content: flex-end;
+      padding: 1rem;
+    }
+
+    nav {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+      @include md() {
+        flex-direction: row;
+        gap: 0.6rem;
+      }
+
+      @include lg {
+        gap: 1.2rem;
+      }
+
+      a {
+        text-decoration: none;
+        color: $secondary-color;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding: 0.3rem;
+        border-radius: 1rem;
+        transition: background-color 0.3s ease-in, color 0.4s ease-in;
+      }
+    }
+
+    menu {
+      padding: 1rem;
+      margin: 0 auto;
+      max-width: 22rem;
+      @include md() {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        margin: 0;
+        padding: 0.5rem;
+      }
+
+      button#theme-btn {
+        width: 100%;
+        margin: 0.6rem 0rem;
+        border-radius: 10px;
+        font-size: 1em;
+        padding: 0.5rem 0rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.4rem;
+        cursor: pointer;
+        white-space: nowrap;
+        @include poppins-font(400);
+        @include md() {
+          padding: 0.5rem;
+          margin: 0;
+        }
+      }
+
+      a {
+        display: block;
+        margin-top: 0.5rem;
+        @include md() {
+          display: none;
+        }
+
+        button.main-cta {
+          width: 100%;
+          border: none;
+          border-radius: 10px;
+          font-size: 1em;
+          padding: 0.5rem 0rem;
+          cursor: pointer;
+          @include poppins-font(500);
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,77 @@
+@use "../base/variables.scss" as *;
+
+html.light {
+  #about-img-container {
+    img {
+      background-color: $primary-color-b;
+    }
+  }
+}
+
+html.dark {
+  #about-img-container {
+    img {
+      background-image: linear-gradient(
+        to top,
+        $primary-color,
+        $primary-color-b,
+        transparent
+      );
+    }
+  }
+}
+
+#about-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  margin: 1rem 0rem;
+  @include lg() {
+    max-width: 1000px;
+    margin: 1rem auto;
+  }
+
+  @include xl() {
+    width: 80%;
+    max-width: 1400px;
+    gap: 3rem;
+  }
+
+  #about-img-container {
+    width: 18rem;
+    height: 18rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid $primary-color;
+
+    img {
+      width: 16rem;
+      height: 16rem;
+      object-fit: cover;
+      object-position: center;
+      border-radius: 50%;
+    }
+  }
+
+  #about-copy {
+    max-width: 32rem;
+    margin: 0 auto;
+
+    @include xl() {
+      margin: 0;
+    }
+
+    h2 {
+      text-transform: capitalize;
+      @include montserrat-font();
+    }
+  
+    p {
+      text-align: justify;
+    }
+  }
+}
