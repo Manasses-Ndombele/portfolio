@@ -11,11 +11,12 @@ import "@/styles/globals.scss";
 
 export const metadata: Metadata = {
   title: "Manassés Ndombele | Desenvolvedor web fullstack pleno",
-  description: "Olá eu sou Manassés crio sites performáticos, intuitivos e com design moderno. Se você deseja um site que se destaque dos outros solicite já um orçamento!",
+  description:
+    "Olá eu sou Manassés crio sites performáticos, intuitivos e com design moderno. Se você deseja um site que se destaque dos outros solicite já um orçamento!",
   robots: "index, follow",
   alternates: {
-    canonical: "https://manassesndombele.vercel.app"
-  }
+    canonical: "https://manassesndombele.vercel.app",
+  },
 };
 
 export default function RootLayout({

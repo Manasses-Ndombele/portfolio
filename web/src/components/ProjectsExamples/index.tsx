@@ -44,32 +44,32 @@ export default function ProjectsExamples() {
       >
         <SwiperSlide>
           <ProjectCard
-            imgSrc={data[0].img}
-            projectName={data[0].name}
-            tags={data[0].categories}
+            imgSrc={data[11].img}
+            projectName={data[11].name}
+            tags={data[11].categories}
             styleClass="card-a"
-            projectId={1}
-            imgAlt={data[0].imgAlt}
+            projectId={11}
+            imgAlt={data[11].imgAlt}
           />
         </SwiperSlide>
         <SwiperSlide>
           <ProjectCard
-            imgSrc={data[1].img}
-            projectName={data[1].name}
-            tags={data[1].categories}
+            imgSrc={data[12].img}
+            projectName={data[12].name}
+            tags={data[12].categories}
             styleClass="card-a"
-            projectId={2}
-            imgAlt={data[1].imgAlt}
+            projectId={12}
+            imgAlt={data[12].imgAlt}
           />
         </SwiperSlide>
         <SwiperSlide>
           <ProjectCard
-            imgSrc={data[2].img}
-            projectName={data[2].name}
-            tags={data[2].categories}
+            imgSrc={data[13].img}
+            projectName={data[13].name}
+            tags={data[13].categories}
             styleClass="card-a"
-            projectId={3}
-            imgAlt={data[2].imgAlt}
+            projectId={13}
+            imgAlt={data[13].imgAlt}
           />
         </SwiperSlide>
       </Swiper>

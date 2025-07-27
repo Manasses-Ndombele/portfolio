@@ -7,7 +7,6 @@
   "theme-btn-light": "Modo claro",
   "theme-btn-dark": "Modo escuro",
   "main-loader-text": "Carregando...",
-  "projects-gif-alt": "Projetos do desenvolvedor freelancer Manassés Ndombele",
   "main-copy.title": "Criando projetos pensados no detalhe, ",
   "main-copy.title.strong": "criado para vender",
   "main-copy.description": "Mais do que escrever código, eu mergulho nos detalhes que levam os usuários a interagirem de forma intuitiva com meus projetos. Cada cor, posição, imagem, animação tem um porquê! Desta forma eu crio soluções vendáveis para que você possa ter um resultado final que você possa chamar orgulhosamente de seu!",
@@ -91,6 +90,24 @@
     "category1": "Outros",
     "description": "Este é meu portfólio freelancer que estás navegando nele criado de forma detalhista com o objetivo de passar examente a imagem de que crio meus sites com conhecimento técnico mas além disso muita criatividade.",
     "imgAlt": "Portfólio freelancer do desenvolvedor Manassés Ndombele"
+  },
+  "projectCard12": {
+    "category1": "Site de vendas",
+    "category2": "Landing page",
+    "description": "Este projeto foi desenvolvido com o objetivo de elevar a presença digital do Nelson Gaspar, profissional em busca de destacar sua atuação e atrair novos clientes. A landing page foi construída com foco em conversão, utilizando técnicas de copywriting, SEO e design responsivo para garantir boa performance em dispositivos móveis e ótima visibilidade nos buscadores. A estrutura da página guia o visitante de forma estratégica, apresentando os serviços, benefícios, depoimentos e um CTA claro para contato. Todo o layout segue uma identidade visual moderna e profissional, reforçando o posicionamento do Nelson como autoridade em sua área. Este projeto demonstra como uma única página, bem planejada, pode se tornar uma poderosa ferramenta de vendas e imagem.",
+    "imgAlt": "Exemplo de landing page de alta conversão"
+  },
+  "projectCard13": {
+    "category1": "Site para branding",
+    "category2": "Site institucional",
+    "description": "Beleza Viva é um projeto institucional que comunica sofisticação, bem-estar e cuidado pessoal. Criado para representar uma clínica de estética moderna, o site combina um visual elegante com estrutura clara, transmitindo confiança e profissionalismo. A proposta da marca é oferecer experiências transformadoras, com foco na autoestima e beleza natural. Com uma estética refinada, presença da mascote Zaya para criar empatia e uma navegação fluida, o site foi desenvolvido como exemplo de como o design pode comunicar valor e atrair o público certo para clínicas e negócios de estética.",
+    "imgAlt": "Exemplo de site institucional para branding de clínica de beleza"
+  },
+  "projectCard14": {
+    "category1": "Site de vendas",
+    "category2": "Loja online",
+    "description": "Este projeto simula uma loja virtual voltada para o público pet, com navegação simples, visual atrativo e estrutura voltada para conversão. Desenvolvida com foco na usabilidade e na experiência do usuário, a PetMimos reflete o conceito de uma marca que valoriza o cuidado e o carinho com os animais de estimação. Sua proposta é tornar a compra de mimos para pets algo prático, seguro e prazeroso. A loja foi construída com atenção à identidade visual amigável e à organização eficiente dos produtos, representando um modelo ideal para negócios no segmento pet.",
+    "imgAlt": "Exemplo de loja online moderna do nicho pet"
   },
   "project-card.btn-action": "Saiba mais",
   "projects-container.btn-action": "Ver todos projetos",

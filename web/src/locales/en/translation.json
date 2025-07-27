@@ -7,7 +7,6 @@
   "theme-btn-light": "Light mode",
   "theme-btn-dark": "Dark mode",
   "main-loader-text": "Loading...",
-  "projects-gif-alt": "Projects by freelance developer Manassés Ndombele",
   "main-copy.title": "Building detail-oriented projects ",
   "main-copy.title.strong": "designed to convert",
   "main-copy.description": "I don’t just write code — I dive into the details that make users naturally interact with what I create. Every color, position, image, and animation has a purpose. That’s how I deliver solutions that actually sell, giving you a final result you’ll be proud to call your own!",
@@ -91,6 +90,24 @@
     "category1": "Other",
     "description": "This is my freelance portfolio, which you're currently browsing. It was carefully crafted to reflect not only my technical skills in web development but also my creative approach to building websites.",
     "imgAlt": "Freelance portfolio of developer Manassés Ndombele"
+  },
+  "projectCard12": {
+    "category1": "Sales website",
+    "category2": "Landing page",
+    "description": "This project was developed with the aim of boosting the digital presence of Nelson Gaspar, a professional looking to highlight his work and attract new clients. The landing page was built with a focus on conversion, using copywriting techniques, SEO and responsive design to ensure good performance on mobile devices and optimum visibility in search engines. The structure of the page guides the visitor strategically, presenting the services, benefits, testimonials and a clear CTA for contact. The entire layout follows a modern and professional visual identity, reinforcing Nelson's position as an authority in his field. This project demonstrates how a single, well-planned page can become a powerful sales and image tool.",
+    "imgAlt": "Example of a high-converting landing page"
+  },
+  "projectCard13": {
+    "category1": "Branding website",
+    "category2": "Corporate website",
+    "description": "Beleza Viva is an institutional project that communicates sophistication, well-being and personal care. Created to represent a modern beauty clinic, the site combines an elegant look with a clear structure, conveying confidence and professionalism. The brand's proposal is to offer transformative experiences, with a focus on self-esteem and natural beauty. With a refined aesthetic, the presence of the mascot Zaya to create empathy and fluid navigation, the site was developed as an example of how design can communicate value and attract the right audience for aesthetics clinics and businesses.",
+    "imgAlt": "Example of a corporate branding website"
+  },
+  "projectCard14": {
+    "category1": "Sales website",
+    "category2": "Online store",
+    "description": "This project simulates a virtual store aimed at the pet public, with simple navigation, an attractive look and a conversion-oriented structure. Developed with a focus on usability and user experience, PetMimos reflects the concept of a brand that values care and affection for pets. Its aim is to make buying pet treats practical, safe and enjoyable. The store was built with attention to a friendly visual identity and efficient product organization, representing an ideal model for businesses in the pet segment.",
+    "imgAlt": "Example of a modern online store for pets"
   },
   "project-card.btn-action": "Learn more",
   "projects-container.btn-action": "See all projects",

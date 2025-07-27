@@ -1,16 +1,11 @@
 "use client";
-import React, { Suspense } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { useTranslation } from "react-i18next";
-import { useTheme } from "@/context/ThemeContext";
-import projectsGifLight from "@/assets/desktop-and-mobile-example light.gif";
-import projectsGifDark from "@/assets/desktop-and-mobile-example dark.gif";
+import heroImg from "@/assets/coding.png";
 import "@/styles/components/brand-intro.scss";
-import MiniLoader from "../MiniLoader";
 
 function BrandIntro() {
-  const { theme } = useTheme();
   const { t } = useTranslation();
 
   return (
@@ -28,24 +23,7 @@ function BrandIntro() {
         </Link>
       </div>
       <div id="brand-intro-video">
-        {theme === "light" ? (
-          <Suspense fallback={<MiniLoader bottomSpace={true} />}>
-            <Image
-              src={projectsGifLight}
-              alt={t("projects-gif-alt")}
-              unoptimized
-            />
-          </Suspense>
-        ) : (
-          <Suspense fallback={<MiniLoader bottomSpace={true} />}>
-            <Image
-              src={projectsGifDark}
-              alt={t("projects-gif-alt")}
-              unoptimized
-            />
-          </Suspense>
-        )}
-        <div id="video-shadow"></div>
+        <Image src={heroImg} alt="Computador e códigos" unoptimized />
       </div>
     </div>
   );

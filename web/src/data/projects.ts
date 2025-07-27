@@ -7,8 +7,11 @@ import project6 from "@/assets/project 6.jpg";
 import project7 from "@/assets/project 7.jpg";
 import project8 from "@/assets/project 8.jpg";
 import project9 from "@/assets/project 9.jpg";
-import project10 from "@/assets/project 10.jpg"
-import project11 from "@/assets/project 11.jpg"
+import project10 from "@/assets/project 10.jpg";
+import project11 from "@/assets/project 11.jpg";
+import project12 from "@/assets/project 12.png";
+import project13 from "@/assets/project 13.png";
+import project14 from "@/assets/project 14.png";
 import { Project } from "@/types/Project";
 
 export const data: Project[] = [
@@ -177,4 +180,43 @@ export const data: Project[] = [
     link: "https://manassesndombele.vercel.app/",
     imgAlt: "projectCard11.imgAlt",
   },
+  {
+    name: "C.E.P - Landing page",
+    categories: {
+      categoriesKeys: ["sales", "landingPage"],
+      categoriesValues: ["projectCard12.category1", "projectCard12.category2"],
+    },
+    description: "projectCard12.description",
+    technologies: ["NextJS", "ReactJS", "TypeScript", "TailwindCSS"],
+    img: project14,
+    github: "https://github.com/Manasses-Ndombele/nelson-gaspar-landing-page",
+    link: "https://nelson-gaspar.vercel.app/",
+    imgAlt: "projectCard12.imgAlt",
+  },
+  {
+    name: "Beleza Viva",
+    categories: {
+      categoriesKeys: ["branding", "institutional"],
+      categoriesValues: ["projectCard13.category1", "projectCard13.category2"],
+    },
+    description: "projectCard13.description",
+    technologies: ["ReactJS", "TailwindCSS", "TypeScript"],
+    img: project13,
+    github: "https://github.com/Manasses-Ndombele/beleza-viva-clinica",
+    link: "https://beleza-viva.vercel.app/",
+    imgAlt: "projectCard13.imgAlt",
+  },
+  {
+    name: "PetMimos",
+    categories: {
+      categoriesKeys: ["sales", "ecommerce"],
+      categoriesValues: ["projectCard14.category1", "projectCard14.category2"],
+    },
+    description: "projectCard14.description",
+    technologies: ["ReactJS", "NextJS", "TailwindCSS", "TypeScript"],
+    img: project12,
+    github: "https://github.com/Manasses-Ndombele/petmimos-loja",
+    link: "https://petmimos.vercel.app/",
+    imgAlt: "projectCard14.imgAlt",
+  }
 ];
