@@ -19,6 +19,10 @@ html {
     }
   }
 
+  main {
+    margin-top: 4rem;
+  }
+
   * {
     transition: color 0.5s ease-in, background-color 0.5s ease-in-out,
       border-color 0.5s ease-in, box-shadow 0.5s ease-in-out;

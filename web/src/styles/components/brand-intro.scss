@@ -28,12 +28,16 @@ html.dark {
       color: $primary-color-b;
     }
   }
+
+  #brand-intro-video {
+    background-image: radial-gradient($primary-color, transparent, transparent);
+  }
 }
 
 #brand-intro {
   @include md() {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
   }
 
@@ -110,14 +114,8 @@ html.dark {
     }
 
     img {
-      width: 100%;
+      width: 34rem;
       height: auto;
-    }
-
-    #video-shadow {
-      width: 100%;
-      height: 10rem;
-      transform: translateY(-4rem);
     }
   }
 }

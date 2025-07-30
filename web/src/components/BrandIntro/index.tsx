@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useTranslation } from "react-i18next";
-import heroImg from "@/assets/coding.png";
+import heroImg from "@/assets/hero-photo.png";
 import "@/styles/components/brand-intro.scss";
 
 function BrandIntro() {

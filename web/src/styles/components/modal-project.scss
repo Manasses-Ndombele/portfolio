@@ -82,7 +82,7 @@ html.dark {
     }
 
     @include xl() {
-      height: 30rem;
+      height: auto;
     }
 
     &.closing {
@@ -93,6 +93,7 @@ html.dark {
       text-transform: capitalize;
       font-size: 1.5em;
       margin: 0 0.5rem;
+      text-align: center;
       @include montserrat-font();
     }
 
