@@ -81,6 +81,10 @@ html.dark {
       height: 50%;
     }
 
+    @include xl() {
+      height: 30rem;
+    }
+
     &.closing {
       opacity: 0;
     }

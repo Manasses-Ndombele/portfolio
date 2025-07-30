@@ -29,85 +29,67 @@
   "projectCard1": {
     "category1": "Sales website",
     "category2": "Landing page",
-    "description": "This is a landing page for a weight loss info product called `Emagrecimento Sem Segredos`. It was created to showcase my frontend development and web design skills.",
+    "description": "This project was developed with the aim of selling the Jortan smart Wi-Fi camera through a side business I am starting with a friend of mine. Our goal is to sell high-potential physical products on Instagram, directing leads to this landing page, which is still under development.",
     "imgAlt": "Example of a high-converting landing page"
   },
   "projectCard2": {
+    "category1": "Sales website",
+    "category2": "Landing page",
+    "description": "This project was developed with the aim of increasing the digital presence of Angolan entrepreneur Nelson Gaspar. The landing page was built with a focus on conversion, using copywriting techniques, SEO, and responsive design to ensure good performance. The page structure strategically guides visitors, presenting services, benefits, testimonials, and a clear CTA. This project demonstrates how a single, well-planned page can become a powerful sales and image tool.",
+    "imgAlt": "Example of a high-converting landing page"
+  },
+  "projectCard3": {
+    "category1": "Branding website",
+    "category2": "Corporate website",
+    "description": "Beleza Viva is an institutional project that communicates sophistication, well-being and personal care. Created to represent a modern beauty clinic, the site combines an elegant look with a clear structure, conveying confidence and professionalism. The brand's proposal is to offer transformative experiences, with a focus on self-esteem and natural beauty. With a refined aesthetic, the presence of the mascot Zaya to create empathy and fluid navigation, the site was developed as an example of how design can communicate value and attract the right audience for aesthetics clinics and businesses.",
+    "imgAlt": "Example of a corporate branding website"
+  },
+  "projectCard4": {
     "category1": "Branding website",
     "category2": "Corporate website",
     "category3": "Web application",
     "description": "This is a corporate website and also a web booking system built with PHP and other tools. It was developed for a fictional hotel chain named `EDEN Hotels`, located in Europe.",
     "imgAlt": "Example of a corporate branding website and hotel booking system"
   },
-  "projectCard3": {
+  "projectCard5": {
+    "category1": "Sales website",
+    "category2": "Landing page",
+    "description": "This is a landing page for a weight loss info product called `Emagrecimento Sem Segredos`. It was created to showcase my frontend development and web design skills.",
+    "imgAlt": "Example of a high-converting landing page"
+  },
+  "projectCard6": {
+    "category1": "Other",
+    "description": "This is my freelance portfolio, which you're currently browsing. It was carefully crafted to reflect not only my technical skills in web development but also my creative approach to building websites.",
+    "imgAlt": "Freelance portfolio of developer Manassés Ndombele"
+  },
+  "projectCard7": {
+    "category1": "Sales website",
+    "category2": "Online store",
+    "description": "This project simulates a virtual store aimed at the pet public, with simple navigation, an attractive look and a conversion-oriented structure. Developed with a focus on usability and user experience, PetMimos reflects the concept of a brand that values care and affection for pets. Its aim is to make buying pet treats practical, safe and enjoyable. The store was built with attention to a friendly visual identity and efficient product organization, representing an ideal model for businesses in the pet segment.",
+    "imgAlt": "Example of a modern online store for pets"
+  },
+  "projectCard8": {
     "category1": "Sales website",
     "category2": "Online store",
     "description": "This is an online store currently under development. It focuses on the VR glasses niche and, for now, serves only as a demonstration of my frontend and web design skills — but it will soon be fully functional.",
     "imgAlt": "Example of a modern online store for VR glasses"
   },
-  "projectCard4": {
+  "projectCard9": {
     "category1": "Branding website",
     "category2": "Corporate website",
     "description": "This is a sample corporate website for a fictional consulting company. It serves as a demonstration of my frontend development and web design capabilities.",
     "imgAlt": "Example of a corporate branding website for a consulting firm"
   },
-  "projectCard5": {
+  "projectCard10": {
     "category1": "Others",
     "description": "This is an addiction quiz focused on compulsive behavior, based on data from the WHO. It was created for the Socorre.me platform by Daniel Santos.",
     "imgAlt": "Compulsive behavior addiction quiz for the Socorre.me platform"
   },
-  "projectCard6": {
+  "projectCar11": {
     "category1": "Web system",
     "category2": "Automations",
     "description": "This is a mini system for mass email sending using SMTP. It allows fast and free email delivery by using an app password to grant the site access to a sender email account.",
     "imgAlt": "Web automation system for email delivery"
-  },
-  "projectCard7": {
-    "category1": "Sales website",
-    "category2": "Landing page",
-    "description": "This is a sample landing page created to simulate the sale of access to a course platform in the cryptocurrency niche, called `CriptoHacking`.",
-    "imgAlt": "Example of a high-converting landing page"
-  },
-  "projectCard8": {
-    "category1": "Branding website",
-    "category2": "Corporate website",
-    "description": "This is a corporate website for a fictional company offering digital marketing and software house services. It's designed to demonstrate my understanding of core web technologies (HTML, CSS, JS).",
-    "imgAlt": "Example of a corporate branding website for a marketing company"
-  },
-  "projectCard9": {
-    "category1": "Automations",
-    "category2": "Others",
-    "description": "This project is a cross-platform desktop app designed to generate nutritious recipes based on the nutrients and gram quantities selected by the user. The recipes are generated using the SponnacularAPI.",
-    "imgAlt": "Automation and desktop app for diet planning"
-  },
-  "projectCard10": {
-    "category1": "Automations",
-    "category2": "Others",
-    "description": "This is a cross-platform desktop application built to recommend movies based on genres the user is interested in. The recommendations are sent to the user via WhatsApp using a Bot.",
-    "imgAlt": "Automation and desktop app for movie recommendations via WhatsApp"
-  },
-  "projectCard11": {
-    "category1": "Other",
-    "description": "This is my freelance portfolio, which you're currently browsing. It was carefully crafted to reflect not only my technical skills in web development but also my creative approach to building websites.",
-    "imgAlt": "Freelance portfolio of developer Manassés Ndombele"
-  },
-  "projectCard12": {
-    "category1": "Sales website",
-    "category2": "Landing page",
-    "description": "This project was developed with the aim of boosting the digital presence of Nelson Gaspar, a professional looking to highlight his work and attract new clients. The landing page was built with a focus on conversion, using copywriting techniques, SEO and responsive design to ensure good performance on mobile devices and optimum visibility in search engines. The structure of the page guides the visitor strategically, presenting the services, benefits, testimonials and a clear CTA for contact. The entire layout follows a modern and professional visual identity, reinforcing Nelson's position as an authority in his field. This project demonstrates how a single, well-planned page can become a powerful sales and image tool.",
-    "imgAlt": "Example of a high-converting landing page"
-  },
-  "projectCard13": {
-    "category1": "Branding website",
-    "category2": "Corporate website",
-    "description": "Beleza Viva is an institutional project that communicates sophistication, well-being and personal care. Created to represent a modern beauty clinic, the site combines an elegant look with a clear structure, conveying confidence and professionalism. The brand's proposal is to offer transformative experiences, with a focus on self-esteem and natural beauty. With a refined aesthetic, the presence of the mascot Zaya to create empathy and fluid navigation, the site was developed as an example of how design can communicate value and attract the right audience for aesthetics clinics and businesses.",
-    "imgAlt": "Example of a corporate branding website"
-  },
-  "projectCard14": {
-    "category1": "Sales website",
-    "category2": "Online store",
-    "description": "This project simulates a virtual store aimed at the pet public, with simple navigation, an attractive look and a conversion-oriented structure. Developed with a focus on usability and user experience, PetMimos reflects the concept of a brand that values care and affection for pets. Its aim is to make buying pet treats practical, safe and enjoyable. The store was built with attention to a friendly visual identity and efficient product organization, representing an ideal model for businesses in the pet segment.",
-    "imgAlt": "Example of a modern online store for pets"
   },
   "project-card.btn-action": "Learn more",
   "projects-container.btn-action": "See all projects",
