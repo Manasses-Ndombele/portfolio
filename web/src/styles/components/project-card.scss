@@ -3,7 +3,7 @@
 html.light {
   .project-card {
     &.card-a {
-      box-shadow: 0 0 4px $secondary-color;
+      box-shadow: 0 0 1px $secondary-color;
 
       .project-description {
         background-color: $tertiary-color-b;
@@ -28,7 +28,7 @@ html.light {
 
     &.card-b {
       background-color: $tertiary-color;
-      box-shadow: 1px 1px 2px $secondary-color;
+      box-shadow: 0 0 1px $secondary-color;
     }
   }
 }
