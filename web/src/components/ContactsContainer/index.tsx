@@ -28,7 +28,7 @@ export default function ContactsContainer() {
   async function sendEmail(formDatas: object): Promise<void> {
     try {
       const response = await fetch(
-        "https://backend-vgq4.onrender.com/api/send-email",
+        "https://portfolio-backend-qinm.onrender.com/api/send-email",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },

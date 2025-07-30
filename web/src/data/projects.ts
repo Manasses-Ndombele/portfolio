@@ -21,7 +21,7 @@ export const data: Project[] = [
     description: "projectCard1.description",
     technologies: ["ReactJS", "TypeScript", "TailwindCSS"],
     img: project1,
-    github: "https://github.com/Manasses-Ndombele/nelson-gaspar-landing-page",
+    github: "https://github.com/Manasses-Ndombele/jortran-landing-page",
     link: "https://jortran-landing-page.vercel.app/",
     imgAlt: "projectCard1.imgAlt",
   },
