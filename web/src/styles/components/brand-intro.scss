@@ -1,5 +1,15 @@
 @use "../base/variables.scss" as *;
 
+@keyframes flow-img {
+  from {
+    transform: translateY(-1rem);
+  }
+
+  to {
+    transform: translateY(0.3rem);
+  }
+}
+
 html.light {
   #brand-intro-content {
     h1 {
@@ -9,16 +19,6 @@ html.light {
         color: $primary-color;
       }
     }
-  }
-
-  #video-shadow {
-    background-image: radial-gradient(
-      $secondary-color,
-      transparent,
-      transparent
-    );
-
-    opacity: 0.3;
   }
 }
 
@@ -116,6 +116,7 @@ html.dark {
     img {
       width: 34rem;
       height: auto;
+      animation: flow-img 4s ease-in-out infinite alternate;
     }
   }
 }
