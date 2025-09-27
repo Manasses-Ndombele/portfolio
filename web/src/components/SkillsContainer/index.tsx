@@ -147,10 +147,6 @@ export default function SkillsContainer() {
                 <BiLogoPostgresql />
                 <p>PostgreSQL</p>
               </div>
-              <div className="skill-item">
-                <FaLaravel />
-                <p>Laravel</p>
-              </div>
             </div>
             <div className="skills-items">
               <div className="skill-item">

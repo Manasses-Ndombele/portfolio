@@ -3,9 +3,9 @@ import { ThemeProvider } from "@/context/ThemeContext";
 import { ProjectProvider } from "@/context/ProjectContext";
 import { LoadingDataProvider } from "@/context/LoadingDataContext";
 import ThemeWrapper from "@/components/ThemeWrapper";
-import MainHeader from "@/components/MainHeader";
 import MainFooter from "@/components/MainFooter";
 import ScrollTopBtn from "@/components/ScrollTopBtn";
+import MainHeader from "@/components/MainHeader";
 import LangWrapper from "@/components/LangWrapper";
 import "@/styles/globals.scss";
 
@@ -31,7 +31,7 @@ export default function RootLayout({
           <ThemeWrapper>
             <body>
               <LangWrapper>
-                <MainHeader />
+				<MainHeader />
                 <ProjectProvider>{children}</ProjectProvider>
                 <MainFooter />
               </LangWrapper>
